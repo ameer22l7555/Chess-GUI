@@ -12,6 +12,25 @@ This is a chess program created with C++ and SDL2. It provides a graphical inter
 - [SDL2](https://www.libsdl.org/)
 - [SDL2_image](https://www.libsdl.org/projects/SDL_image/)
 
+## Chess Piece Images
+
+**Note:** The chess piece images are not included in this repository due to binary file limitations. You need to download chess piece PNG images and place them in the `images` directory with these exact filenames:
+
+- blackBishop.png
+- blackKing.png
+- blackKnight.png
+- blackPawn.png
+- blackQueen.png
+- blackRook.png
+- whiteBishop.png
+- whiteKing.png
+- whiteKnight.png
+- whitePawn.png
+- whiteQueen.png
+- whiteRook.png
+
+You can find free chess piece images from various online sources or create your own.
+
 ## Building the Project
 
 There are several ways to build this project:
@@ -72,6 +91,9 @@ After building, you can run the chess game by executing:
 - Click on a chess piece to select it
 - Click on a valid destination square to move the selected piece
 - The game enforces all standard chess rules (check, checkmate, castling, etc.)
+- Press 'R' to reset the game
+- Press 'Z' to undo the last move
+- Press 'V' to make a random move
 
 ## Project Structure
 
